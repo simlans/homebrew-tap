@@ -7,20 +7,20 @@ class OpCache < Formula
   on_macos do
     if Hardware::CPU.arm?
       url "https://github.com/simlans/direnv-libs/releases/download/v2.0.0/op-cache-aarch64-apple-darwin.tar.gz"
-      sha256 "347def849bb03a24b3b2f2dc082aa03bcfdb7cce4ce88206a90640e267407ee0"
+      sha256 "1568352a7cee9a08b85d69396fa824d4372023920fe148e30e22c07fe49b4205"
     else
       url "https://github.com/simlans/direnv-libs/releases/download/v2.0.0/op-cache-x86_64-apple-darwin.tar.gz"
-      sha256 "9d906f8dfe2eec700feae8e8c7cc695f306dc10a3aa94e1b0d482697d8ca2c5e"
+      sha256 "95e6d9cfb84f20783f74e4b51c1dad9630e2f7b3a1a17e4c4698f15e676c1552"
     end
   end
 
   on_linux do
     if Hardware::CPU.arm?
       url "https://github.com/simlans/direnv-libs/releases/download/v2.0.0/op-cache-aarch64-unknown-linux-gnu.tar.gz"
-      sha256 "9c9d8d7d395c1be5b7b6e1be9602f3076cdbe1bfd3b8c5e4698c5477be5af378"
+      sha256 "7e28b4943d8892455889ca492ef29b889cdf8995434f3b7c167f73c76fc3e4ce"
     else
       url "https://github.com/simlans/direnv-libs/releases/download/v2.0.0/op-cache-x86_64-unknown-linux-gnu.tar.gz"
-      sha256 "4feb03a4dd9e43ca6e2581cdc5b32598948a7b12373b27f0c342106ad2417bf4"
+      sha256 "cc657541d4e2eb0f5fae77bdd7188bc99660f1886a74415cfb2fc99612b58e14"
     end
   end
 
