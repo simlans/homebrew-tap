@@ -1,26 +1,26 @@
 class OpCache < Formula
   desc "Fast cache for 1Password CLI reads"
-  homepage "https://github.com/simlans/direnv-libs"
-  version "2.0.0"
+  homepage "https://github.com/simlans/op-cache"
+  version "0.1.0"
   license "MIT"
 
   on_macos do
     if Hardware::CPU.arm?
-      url "https://github.com/simlans/direnv-libs/releases/download/v2.0.0/op-cache-aarch64-apple-darwin.tar.gz"
-      sha256 "1568352a7cee9a08b85d69396fa824d4372023920fe148e30e22c07fe49b4205"
+      url "https://github.com/simlans/op-cache/releases/download/v0.1.0/op-cache-aarch64-apple-darwin.tar.gz"
+      sha256 "20ff276e8a58e971d3320e009e1e20137293ce3507f4e5f8e48a5bc453ffe04f"
     else
-      url "https://github.com/simlans/direnv-libs/releases/download/v2.0.0/op-cache-x86_64-apple-darwin.tar.gz"
-      sha256 "95e6d9cfb84f20783f74e4b51c1dad9630e2f7b3a1a17e4c4698f15e676c1552"
+      url "https://github.com/simlans/op-cache/releases/download/v0.1.0/op-cache-x86_64-apple-darwin.tar.gz"
+      sha256 "97a0798018dec9fc1ac9536ad81c8161258d0b29717911f869f537541c49084b"
     end
   end
 
   on_linux do
     if Hardware::CPU.arm?
-      url "https://github.com/simlans/direnv-libs/releases/download/v2.0.0/op-cache-aarch64-unknown-linux-gnu.tar.gz"
-      sha256 "7e28b4943d8892455889ca492ef29b889cdf8995434f3b7c167f73c76fc3e4ce"
+      url "https://github.com/simlans/op-cache/releases/download/v0.1.0/op-cache-aarch64-unknown-linux-gnu.tar.gz"
+      sha256 "25a475600de2ca52696313f99327d4737861e7d96382e15f73b7c954d5d3ab14"
     else
-      url "https://github.com/simlans/direnv-libs/releases/download/v2.0.0/op-cache-x86_64-unknown-linux-gnu.tar.gz"
-      sha256 "cc657541d4e2eb0f5fae77bdd7188bc99660f1886a74415cfb2fc99612b58e14"
+      url "https://github.com/simlans/op-cache/releases/download/v0.1.0/op-cache-x86_64-unknown-linux-gnu.tar.gz"
+      sha256 "4e3d91bf4d520e4e120feb8157935ecd57df63b7bbd0247ea88b775eff095ca0"
     end
   end
 
